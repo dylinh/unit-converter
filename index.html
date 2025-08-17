@@ -9,20 +9,23 @@
     <body>
         <section class="input-section">
             <h1>Metric/Imperial Unit Conversion</h1>
-            <input class="unit-input" type="text">
-            <script src="index.js"></script>
-            <button>Convert</button>
+            <input id="unit-input" type="text">
+            <button id="convert-btn">Convert</button>
         </section>
         <section class="conversions">
-            <div>
+            <div class="length-div center">
                 <h2>Length (Meter/Feet)</h2>
+                <p id="length"></p>
             </div>
-            <div>
-                <h2>Volume (Liters/Gallons)
+            <div class="volume-div center">
+                <h2>Volume (Liters/Gallons)</h2>
+                <p id="volume"></p>
             </div>
-            <div>
+            <div class="mass-div center">
                 <h2>Mass (Kilograms/Pounds)</h2>
+                <p id="mass"></p>
             </div>
         </section>
+    <script src="index.js"></script>
     </body>
 </html>
